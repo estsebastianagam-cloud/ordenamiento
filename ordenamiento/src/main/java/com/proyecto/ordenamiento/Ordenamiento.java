@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Ordenamiento {
+public class Ordenamiento {  //Se usara Arrays.sort() en lugar del metodo manual, eliminar metodo de burbuja y empezar a añadir el nuevo metodo
     
     public static void main(String[] args) {
         
