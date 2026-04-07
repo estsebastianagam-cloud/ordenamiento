@@ -3,12 +3,14 @@ package com.proyecto.ordenamiento;
 
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Random;
 
 public class Ordenamiento {
     
     public static void main(String[] args) {
         
          Scanner sc = new Scanner(System.in);
+         Random rand = new Random();
 
         System.out.print("¿Cuantos datos desea ingresar? ");
         int n = sc.nextInt();
@@ -16,9 +18,9 @@ public class Ordenamiento {
         int arr[] = new int[n];
         
         for (int i = 0; i < n; i++) {
-            System.out.print("Ingrese el valor #" + (i + 1) + ": ");
-            arr[i] = sc.nextInt();
+            arr[i] = rand.nextInt(100); // números entre 0 y 99
         }
+
 
         ordenar(arr);
         System.out.println("Arreglo ordenado: " + Arrays.toString(arr));
