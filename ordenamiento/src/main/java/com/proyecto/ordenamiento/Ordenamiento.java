@@ -20,7 +20,8 @@ public class Ordenamiento {
         for (int i = 0; i < n; i++) {
             arr[i] = rand.nextInt(100); // números entre 0 y 99
         }
-
+        
+        System.out.println("Arreglo original: " + Arrays.toString(arr));
 
         ordenar(arr);
         System.out.println("Arreglo ordenado: " + Arrays.toString(arr));
