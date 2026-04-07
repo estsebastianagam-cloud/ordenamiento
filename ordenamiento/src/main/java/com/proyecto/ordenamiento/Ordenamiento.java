@@ -2,6 +2,7 @@
 package com.proyecto.ordenamiento;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Ordenamiento {
     
@@ -20,7 +21,7 @@ public class Ordenamiento {
         }
 
         ordenar(arr);
-        System.out.println(java.util.Arrays.toString(arr));
+        System.out.println("Arreglo ordenado: " + Arrays.toString(arr));
     }
 
     private static void ordenar(int v[]) {
