@@ -13,6 +13,11 @@ public class Ordenamiento {
         int n = sc.nextInt();
 
         int arr[] = new int[n];
+        
+        for (int i = 0; i < n; i++) {
+            System.out.print("Ingrese el valor #" + (i + 1) + ": ");
+            arr[i] = sc.nextInt();
+        }
 
         ordenar(arr);
         System.out.println(java.util.Arrays.toString(arr));
