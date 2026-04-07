@@ -23,7 +23,7 @@ public class Ordenamiento {  //Se usara Arrays.sort() en lugar del metodo manual
         
         System.out.println("Arreglo original: " + Arrays.toString(arr));
 
-        ordenar(arr);
+        Arrays.sort(arr);
         System.out.println("Arreglo ordenado: " + Arrays.toString(arr));
     }
 
