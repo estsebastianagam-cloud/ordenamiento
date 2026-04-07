@@ -12,7 +12,7 @@ public class Ordenamiento {  //Se usara Arrays.sort() en lugar del metodo manual
          Scanner sc = new Scanner(System.in);
          Random rand = new Random();
 
-        System.out.print("¿Cuantos datos desea ingresar? ");
+        System.out.print("Cuantos datos desea ingresar? ");
         int n = sc.nextInt();
 
         int arr[] = new int[n];
@@ -24,6 +24,7 @@ public class Ordenamiento {  //Se usara Arrays.sort() en lugar del metodo manual
         System.out.println("Arreglo original: " + Arrays.toString(arr));
 
         Arrays.sort(arr);
+        
         System.out.println("Arreglo ordenado: " + Arrays.toString(arr));
     }
 }
